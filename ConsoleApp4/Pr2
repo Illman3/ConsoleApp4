@@ -101,11 +101,11 @@ class Program
                 Category = category,
             };
             products.Add(product);
-            Console.WriteLine($"Товар добавлен! Код: {product.Unicode}");
+            Console.WriteLine($"Товар Код: {product.Unicode}");
         }
         catch (FormatException)
         {
-            Console.WriteLine("Ошибка ввода. Проверьте правильность введённых данных.");
+            Console.WriteLine("Нет");
         }
     }
     private static void Deleteproduct()
